@@ -4,7 +4,7 @@
   padding: 0;
   background: transparent;
   min-height: 100vh;
-  color: #cc0000;
+  color: #ff5555;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,14 +18,14 @@
   justify-content: center;
   gap: 0.75rem;
   margin-bottom: 1.5rem;
-  color: #cc0000;
+  color: #ff5555;
   animation: fade-in 2s ease-out;
 }
 
 .logo {
   width: 254px;
   height: 254px;
-  filter: drop-shadow(0 0 10px rgba(204, 0, 0, 0.6));
+  filter: drop-shadow(0 0 10px rgba(255, 85, 85, 0.6));
 }
 
 h1 {
@@ -47,15 +47,15 @@ h1 {
   font-size: 1.5rem;
   font-family: 'Michroma', sans-serif;
   border-radius: 4px;
-  border: 2px solid #cc0000;
-  background: #ffffff;
-  color: #cc0000;
+  border: 2px solid #ff5555;
+  background: #1e1e1e;
+  color: #ff5555;
   transition: box-shadow 0.3s;
 }
 
 .search:focus {
   outline: none;
-  box-shadow: 0 0 12px rgba(204, 0, 0, 0.4);
+  box-shadow: 0 0 12px rgba(255, 85, 85, 0.4);
 }
 
 .dropdown {
@@ -65,13 +65,14 @@ h1 {
   position: absolute;
   left: 0;
   right: 0;
-  background: #ffffff;
-  border: 1px solid #cc0000;
+  background: #1e1e1e;
+  animation: slide-up 0.3s ease-out;
+  border: 1px solid #ff5555;
   border-top: none;
   max-height: 200px;
   overflow-y: auto;
   z-index: 10;
-  color: #cc0000;
+  color: #ff5555;
 }
 
 .dropdown-item {
@@ -97,7 +98,7 @@ h1 {
 }
 
 .dropdown-item:hover {
-  background: #ffeeee;
+  background: #333333;
 }
 
 @keyframes slide-up {

@@ -18,7 +18,7 @@ function App() {
           src="/vite.svg"
           alt="logo"
         />
-        <h1>AIPAC TRACK</h1>
+        <h1>UNMASKED</h1>
       </div>
       <div className="search-container">
         <input
@@ -29,7 +29,7 @@ function App() {
           onChange={e => setQuery(e.target.value)}
         />
         {query && filtered.length > 0 && (
-          <ul className="dropdown">
+          <ul className="dropdown slide-up">
             {filtered.map(p => (
               <li key={p.name} className="dropdown-item">
                 <img className="photo" src={`https://ui-avatars.com/api/?name=${encodeURIComponent(p.name)}`} alt={p.name} />
