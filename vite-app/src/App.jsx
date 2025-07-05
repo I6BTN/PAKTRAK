@@ -12,14 +12,14 @@ function App() {
 
   return (
     <div className="app">
-      <div className="header">
+      <header className="header">
         <img
           className="logo"
           src="/vite.svg"
           alt="logo"
         />
-        <h1>UNMASKED</h1>
-      </div>
+      </header>
+      <h1 className="title">UNMASKED</h1>
       <div className="search-container">
         <input
           className="search"
